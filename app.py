@@ -15,7 +15,7 @@ jobs = [{
     "id": 3,
     "title": "Office Adminstrator",
     "location": "Adama",
-    "salary": "Birr. 80,600"
+
 }]
 
 

@@ -1,0 +1,13 @@
+<div class="container row m-3">
+  <div class="col-9 ">
+    <h4>{{job["title"]}}</li>
+    <h6><b>Location: </b>{{job["location"]}}</h6>
+      {%if "salary" in job%}
+      <h6><b>salary: </b>{{job["salary"]}}</h6>
+      {%endif%}
+      </div>
+      <div class="col-3">
+      <button class="btn btn-brown btn-sm float-end ">Apply</button>
+      </div>
+  <hr>
+  </div>
